@@ -1,0 +1,22 @@
+table,
+td,
+tr,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-inline: 10px;
+    padding-block: 5px;
+    text-align: center;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
