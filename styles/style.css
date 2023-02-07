@@ -1,22 +1,59 @@
-table,
-td,
-tr,
-th {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding-inline: 10px;
-    padding-block: 5px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #ddd;
+}
+.container{
+    width: 50%;
+    margin-inline: auto;
+    padding: 20px;
+    margin-block: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px grey;
+}
+.head{
     text-align: center;
+    margin-block: 20px;
 }
-
-textarea {
-    resize: vertical;
+h2{
+    margin-bottom: 20px;
 }
-
-.red {
-    color: red;
+span{
+    padding: 10px;
 }
-
-.blue {
-    color: blue;
+a{
+    padding:10px;
+}
+.hr{
+    border-top: 1px solid grey;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    /* margin-inline: 0px; */
+}
+.education{
+    margin: 40px;
+}
+ul{
+    margin-inline: 40px;
+    margin-block: 20px;
+}
+.skills{
+    margin: 40px;
+}
+.projects{
+    margin: 40px;
+}
+li{
+    margin-block: 10px;
+}
+.projects a{
+    padding: 0;
+}
+.hobbies{
+    margin: 40px;
 }
